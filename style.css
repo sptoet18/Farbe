@@ -1,0 +1,49 @@
+body {
+    font-family: 'Elms Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bbbbbb;
+    margin: 0;
+    gap: 12px;
+    box-sizing: border-box;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background: white;
+    width: 100vw;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+.color-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #64a362;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #30612e;
+}
